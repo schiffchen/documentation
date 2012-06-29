@@ -1,0 +1,29 @@
+Spiel
+
+Nach dem Herstellen der Verbindung mit dem Gegner wird ein leeres Spielfeld angezeigt. Über dem Spielfeld wird die Vorschau des als nächsten zu setzenden Schiffs angezeigt. Durch Klicken auf die Vorschau wird zum nächsten Schiff gewechselt.
+
+Das Schiff kann nun auf das Feld gezeichnet werden. Das Schiff erscheint an der Stelle auf dem Spielfeld. Wird das Schiff auf ein ungültiges Feld gesetzt, weil es ein anderes Schiff überschneidet oder weil mindestens ein Feld des Schiffs nicht mehr auf dem Spielfeld liegt, so werden alle Felder, auf die das Schiff gesetzt worden wäre rot markiert. Per klick auf ein Schiff, kann es wieder vom Spielfeld entfernt werden.
+ 
+Wenn alle Schiffe gesetzt wurden, erscheint über dem Spielfeld ein Button "Ready". Wird dieser betätigt, wird der Gegner informiert, dass der Spieler das Setzen der Schiffe abgeschlossen hat. Die Position der Schiffe kann jetzt nicht mehr verändert werden. Es erscheint ein Dialog, der anzeigt, dass auf den Gegner gewartet wird. Sobald der Gegner ebenfalls alle Schiffe gesetzt hat, beginnt das Spiel. Es wird eine Benachrichtigung angezeigt, wer das Spiel beginnt.
+
+Zu Spielstart wird, wenn man selbst am Zug ist, das gegnerische, und ansonsten das eigene Spielfeld angezeigt. Ist man am Zug, so kann man durch Berühren eines Feldes auf dieses schießen. Das Feld wird bei einem Treffer rot und bei einem Fehlschlag weiß markiert. Nach dem Schuss ist der Gegner an der Reihe. Es wird nun das Spielfeld des Spielers angezeigt und sobald der Gegner auf ein Feld geschossen hat ebenfalls das getroffene Feld rot oder weiß markiert. Wird ein Schiff des Gegners versenkt, so wird es auf dem Spielfeld angezeigt.
+
+Sind alle Schiffe eines Spielers versenkt, so endet das Spiel und der Spieler erhält eine Nachricht, dass er gewonnen bzw. verloren hat.
+
+
+Entwicklungsumgebung
+
+
+Probleme
+
+
+Milestnones
+
+
+Ressourcen
+
+
+Fremdmaterial
+
+asmack - XMPP library for android - https://code.google.com/p/asmack/ - Apache License 2.0
+
