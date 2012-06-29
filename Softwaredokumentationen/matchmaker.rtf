@@ -1,0 +1,145 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue153;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker }{\leveltext\leveltemplateid1\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\margb1800\margt1800\vieww19800\viewh14120\viewkind0
+\deftab708
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa540\pardirnatural
+
+\f0\b\fs56 \cf0 \expnd0\expndtw0\kerning0
+Matchmaker\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl360\slmult1\sa320\pardirnatural
+
+\b0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Der Matchmaker ist der einzig zentrale Punkt im ganzen System. Er ist zust\'e4ndig f\'fcr das Einreihen der wartenden Spieler in eine Warteschleife und das zuweisen der Spieler zueinander.\
+Die Spiel-Clients melden sich beim Matchmaker \'fcber das Extensible Messaging and Presence Protocol
+\fs16 \expnd0\expndtw0\kerning0
+\super 
+\fs24 \expnd0\expndtw0\kerning0
+\nosupersub  (kurz: XMPP) und bitten um die Einreihung in die Warteschleife. Die Cleints m\'fcssen regelm\'e4\'dfig den Matchmaker mit einer vorgegebenen Nachricht anpingen, um den Eintrag in der Warteschleife aufrecht zu erhalten. Sind zwei oder mehr Spieler eingereiht, wei\'dft der Matchmaker jeweils zwei Spieler zu. Die Spieler, die am l\'e4ngsten in der Warteschleife warten, haben bei der Zuweisung Vorrang.\
+Die Zuweisung selbst erfolgt \'fcber definierte Nachrichten, mit der an beide Spiele die gleichen Informationen gehen: Die Warteschleifen-ID, die ID des Spielgegners und eine eindeutige Spiel-ID. Nach dem Zuweisen werden die Spieler aus der Warteschleife gel\'f6scht und der Zuweisung-Vorgang so lange wiederholt, bis weniger als zwei Spieler in der Warteschleife sind.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa300\pardirnatural
+
+\b \cf0 \expnd0\expndtw0\kerning0
+Technische Umsetzung\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl360\slmult1\sa320\pardirnatural
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+Beim Programmieren des Matchmakers wurde entschieden, auf Basis von Node.js
+\fs16 \expnd0\expndtw0\kerning0
+\super 
+\fs24 \expnd0\expndtw0\kerning0
+\nosupersub  zu entwickeln. Vorteil von serverseitigem JavaScript auf Node.js-Basis ist die hohe Geschwindigkeit der Anwendung. Node.js wird von Googles JavaScript-Engine, V8
+\fs16 \expnd0\expndtw0\kerning0
+\super 
+\fs24 \expnd0\expndtw0\kerning0
+\nosupersub , komplett in den Arbeitsspeicher interpretiert wird und dort ausgef\'fchrt wird. Node.js arbeitet sehr stark Thread-Orientiert, das hei\'dft jede Aufgabe, die Zeit beanspruchen k\'f6nnte (zum Beispiel Datenbankabfragen, Dateisystemoperationen, ...) in einem eigenen Prozess ausgef\'fchrt, um das eigentliche Programm nicht aufzuhalten. Dieses Verhalten macht Node.js attraktiv f\'fcr Anwendungen, die schnell reagieren m\'fcssen. So nutzt zum Beispiel das Foto-Portal Flickr.com Node.js f\'fcr ihre Bilderupload- und Bildverarbeitungs-Funktionen.\
+Die Tatsache, dass auch Datenbankabfragen in einem eigenen Thread gestartet werden, kann die Programmierung aber ungemein verkomplizieren. So muss man zum Beispiel bei Datenbankabfragen einen Event-Handler definieren, der abgefeuert wird, wenn die Datenbankabfrage beendet ist, um dann die Daten aus der Abfrage weiter zu bearbeiten.\
+Node.js ist pures JavaScript mit einigen Datenbanken. JavaScript selbst ist nur beschr\'e4nkt Objektorientiert und die Methoden zum Erstellen sind \'e4u\'dferst umst\'e4ndlich. Aus diesem Grund wurde entschieden, die Anwendung nicht in echten JavaScript zu schreiben, sondern die Abstraktionssprache CoffeeScript
+\fs16 \expnd0\expndtw0\kerning0
+\super 
+\fs24 \expnd0\expndtw0\kerning0
+\nosupersub  zu verwenden. Diese Sprache wird 1:1 in JavaScript umgewandelt und kann dann wie jedes andere JavaScript auch verwendet werden.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa300\pardirnatural
+
+\b \cf0 \expnd0\expndtw0\kerning0
+Systemanforderungen\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl360\slmult1\sa320\pardirnatural
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+Zum Betrieb des Matchmakers wird ein Server ben\'f6tigt, der in der Lage ist, die Kernel-Eventhandler an Anwendungen weiterzugeben, um Node.js nutzen zu k\'f6nnen. Die Windows-Plattform f\'e4llt daher raus, jedes UNIX-System ist aber kompatibel. Da CoffeeScript eine Node.js-Anwendung ist, muss hier nichts weiteres beachtet werden.\
+Der Server ben\'f6tigt einen Internetzugang mit einer statischen IP-Adresse und/oder einer Domain. Au\'dferdem wird ein XMPP-Account auf einem beliebigen Server ben\'f6tigt, auf dem sich der Matchmaker anmelden kann und zur Kommunikation nutzen kann.\
+Die Informationen zu Spielern und Spielergebnissen werden in einer Datenbank gespeichert. Hier wurde MySQL genutzt, da diese quasi \'fcberall anzutreffen ist. Deshalb wird auch eine Datenbank ben\'f6tigt.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa300\pardirnatural
+
+\b \cf0 \expnd0\expndtw0\kerning0
+Hosting und Deploying\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl360\slmult1\sa320\pardirnatural
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+Es wurde entschieden, aufgrund von guten Erfahrungen und pers\'f6nlichen Beziehungen auf die PaaS
+\fs16 \expnd0\expndtw0\kerning0
+\super 
+\fs24 \expnd0\expndtw0\kerning0
+\nosupersub -Firma Heroku
+\fs16 \expnd0\expndtw0\kerning0
+\super 
+\fs24 \expnd0\expndtw0\kerning0
+\nosupersub  zu vertrauen. Heroku bietet unter bestimmten Bedinungen kostenfreies Hosting f\'fcr einige Ruby, Python und JavaScript-Frameworks an. Die Anwendung kann dann recht einfach mit einem Kommandozeilentool skaliert werden und so auch auf gr\'f6\'dfere Lasten eingestellt werden.\
+Die Abrechnung bei Heroku erfolgt anhand der genutzten Prozesse. Da wir nur ein Prozess f\'fcr den Matchmaker ben\'f6tigen, bleibt Heroku f\'fcr uns kostenfrei.\
+Das Deploying auf Heroku ist sehr einfach gel\'f6st. Das Heroku-Kommandozeilentool f\'fcgt einen bestimmten Server in die Liste der Git-Upstreams ein. Das Hochladen und Starten der App selber ist dann mit einem einfachen 
+\i \expnd0\expndtw0\kerning0
+git push heroku
+\i0 \expnd0\expndtw0\kerning0
+ erledigt. Heroku empf\'e4ngt dann die Daten, compiled gegebenenfalls die Anwendung und startet sie. Dieser Vorgang dauert in etwa eine Minute, dann ist die Anwendung lauff\'e4hig.\
+Die Datenbank zum Matchmaker l\'e4uft nicht auf einem Heroku-Server, sondern auf einem Server der 42quadrat-Gruppe. Die 42quadrat-Gruppe ist ein Zusammenschluss einiger Mitglieder des Chaos Computer Clubs, die sich um die Betreuung einiger Server k\'fcmmern.\
+Zur Sicherheit ist der Datenbank-Server so eingestellt, dass keine Zugriffe von Au\'dfen m\'f6glich sind. Um die Sicherheit nicht zu gef\'e4hrden, wurde diese Regel nicht entfernt. Stattdessen wurde eine Ausnahme f\'fcr die IPs der Heroku-Plattform definiert, sodass die Matchmaker-Anwendung Zugriff auf die Datenbank bekommt.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa300\pardirnatural
+
+\b \cf0 \expnd0\expndtw0\kerning0
+Installation\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl360\slmult1\sa320\pardirnatural
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+Auf einem normalen Server muss zun\'e4chst das Node.js-Framework installiert werden. Die meisten Linux-Distributionen liefern ein Node.js-Paket mit, das auch entsprechende Abh\'e4ngigkeiten aufl\'f6st.\
+Nach dem Kopieren des Codes m\'fcssen mit dem Befehl 
+\i \expnd0\expndtw0\kerning0
+npm package install
+\i0 \expnd0\expndtw0\kerning0
+ die Matchmaker-Abh\'e4ngigkeiten installiert werden. Danach kann das Script genutzt werden.\
+Informationen zum Starten des Scripts finden sich im Header des Scriptes, welche bei Node.js als Docstring automatisch ausgegeben werden.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa300\pardirnatural
+
+\b \cf0 \expnd0\expndtw0\kerning0
+Verwendete Bibliotheken\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl360\slmult1\sa320\pardirnatural
+
+\b0 \cf0 \expnd0\expndtw0\kerning0
+Verwendet wurde Quellcode folgender Projekte:\
+\pard\tx453\tx633\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\li633\fi-634\sl360\slmult1\pardirnatural
+\ls1\ilvl0\cf0 \expnd0\expndtw0\kerning0
+		Die CoffeeScript Sprache, {\field{\*\fldinst{HYPERLINK "http://coffeescript.org"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 http://coffeescript.org}}/, lizenziert unter einen MIT-Lizenz.\
+		Die node-xmpp-Library zur einfacheren Realisierung der XMPP-Kommunikation, {\field{\*\fldinst{HYPERLINK "https://github.com/astro/node-xmpp/"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 https://github.com/astro/node-xmpp/}}, lizenziert unter einer MIT-Lizenz.\
+		Die node-mysql-Library zur einfacherern Kommunikation mit dem Datenbankserver MySQL, {\field{\*\fldinst{HYPERLINK "https://github.com/felixge/node-mysql"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 https://github.com/felixge/node-mysql}}, lizenziert unter einer MIT-Lizenz.\
+\pard\tx453\tx633\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\li633\fi-634\sl360\slmult1\pardirnatural
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 		\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\pardirnatural
+
+\fs13\fsmilli6667 \cf0 \expnd0\expndtw0\kerning0
+\super 1
+\fs20 \expnd0\expndtw0\kerning0
+\nosupersub  {\field{\*\fldinst{HYPERLINK "http://xmpp.org/rfcs/rfc6120.html"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 http://xmpp.org/rfcs/rfc6120.html}}\
+
+\fs13\fsmilli6667 \expnd0\expndtw0\kerning0
+\super 2
+\fs20 \expnd0\expndtw0\kerning0
+\nosupersub  {\field{\*\fldinst{HYPERLINK "http://nodejs.org"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 http://nodejs.org}}/\
+
+\fs13\fsmilli6667 \expnd0\expndtw0\kerning0
+\super 3
+\fs20 \expnd0\expndtw0\kerning0
+\nosupersub  {\field{\*\fldinst{HYPERLINK "http://code.google.com/p/v8"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 http://code.google.com/p/v8}}\
+
+\fs13\fsmilli6667 \expnd0\expndtw0\kerning0
+\super 4
+\fs20 \expnd0\expndtw0\kerning0
+\nosupersub  {\field{\*\fldinst{HYPERLINK "http://coffeescript.org"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 http://coffeescript.org}}/\
+
+\fs13\fsmilli6667 \expnd0\expndtw0\kerning0
+\super 5
+\fs20 \expnd0\expndtw0\kerning0
+\nosupersub  Plattform as a Service, das Anbieten einer Softwareplattform als Dienstleistung\
+
+\fs13\fsmilli6667 \expnd0\expndtw0\kerning0
+\super 6
+\fs20 \expnd0\expndtw0\kerning0
+\nosupersub  {\field{\*\fldinst{HYPERLINK "http://www.heroku.com"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 http://www.heroku.com}}/}
