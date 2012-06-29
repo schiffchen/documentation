@@ -1,0 +1,39 @@
+D: Ich hatte gerade eine verrückte Idee für unser Projekt!
+   Schiffe Versenken-over-XMPP
+F: Via XMPP? Warum via XMPP?
+D: XMPP ist ein dezentrales Netzwerk zur Datenübertragung. So bräuchten wir keine zentralen
+   Server, sondern jeder XMPP Server der Welt würde funktionieren
+   Und jeder, der einen XMPP-Account hat, könnte seinen bestehenden Account nehmen, um damit
+   zu spielen.
+M: Und wie sollen wir Spieldaten über XMPP übertragen?
+D: Die im XMPP verschickten Daten sind pures XML. Wenn wir da ein paar Elemente mehr einbauen,
+   können wir da alles übertragen, was wir wollen.
+F: Yeah cool
+D: Dann können wir uns überwiegend auf die Entwicklung von Clients konzentrieren
+F: D.h. das Ding kann auf jedem XMPP-Server laufen, und die Spieler spielen dann
+   per "XMPP-Direktchat"?
+D: die Spieler spielen schön über ein GUI
+   und der Client wandelt dann die Aktionen des Spielers in XML um und verschickt es über XMPP
+F: Und wo is der Server, der die Logik berechnet?
+D: Brauchen wir überhaupt nen Server? Das können auch die Clients erledigen.
+M: Logik und Spielregeln auf den Clients? Ba, ne, dann cheatet ja jeder.
+D: Client 1 schickt Schuss auf 1|1, Client 2 Empfängts, Checkts, meldet zurück und so weiter
+   Da würden sich die Clients ja gegenseitig selber kontrollieren.
+F: Okay, d.h. ich geb im Client meine XMPP-Zugangsdaten eines beliebigen Servers eingeben
+   und kann dann mit irgend nem anderen Spielen?
+D: Genau!
+F: Im Prinzip cool. Aber d.h. jeder Spieler bräuchte nen XMPP-Konto und wir haben kein
+   Matchmaking. Das is zwar cool als nerdiges Linuxgame, aber wie kriegen wir das als
+   einfache "App" unter die Leute? :D
+D: Android-Client entwickeln, Windows Phone Client entwickeln etc?!
+M: Aber ich wäre dann trotzdem noch für einen Matchmaking-Server. Wenn wir so dezentral
+   kommunizieren, weiß ja niemand, wer grade auch spielen will. Wenn die Clients aber noch
+   nem Matchmaking-Server Meldung machen würden, könnten wir Spieler zusammenbringen
+D: Mhh, ja. Gut, dann müssten wir halt noch einen Matchmaker-Server bauen, der dann nur
+   XMPP-IDs zuweist.
+M: Da könnten wir dann auch Statistiken drüber laufen lassen, so als Webpräsenz und wo
+   Leute z.b. Spielergebnisse veröffentlichen lassen könnten. Sprich für optimale
+   Spielererfahrung können se einfach Gegner suchen und finden und Spielhistorien und
+   "Freunde" haben, aber prinzipiell ist jeder Client auch völlig unabhängig vom Internet
+   lauffähig per Direkt-XMPP-ID-Eingabe.
+F: Ja das is Cool, machen wir das!
