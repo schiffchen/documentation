@@ -1,0 +1,16 @@
+D: Gab es nun noch irgendwelche offene ToDos, die noch dringend gelöst werden müssen?
+F: Mhh. Mein Windows Phone Problem ist nun ja gelöst.
+D: Was war eigentlich da genau das Problem?
+F: Es gab keine wirklich brauchbare XMPP-Library für Window Phone. Ich habe eine gefunden,
+   die für C# war, aber die hab ich aufm Gerät nicht zum laufen gebracht. Dann gabs noch eine,
+   die explizit für Windows Phone gebaut wurde, aber da waren die Lizenzkosten derb hoch.
+   Hab nun aber doch was gefunden.
+M: Ich habe noch immer graue Haare...
+D: Mh?
+M: Das Android-Java ist so abgespeckt, dass es nicht mal ne ordentliche SSL-Library hat. Das
+   ist auch der Grund, warum es bei mir andauernd Fehlermeldungen beim Verbinden gegeben hat.
+D: Ohje... Ich hatte vorhin noch Probleme mit Heroku, er wollte den Matchmaker nicht sauber
+   ausführen. Ich dachte erst, das wäre mein Fehler, war aber ein temporärer Bug auf Heroku,
+   das hat mir der Support erzählt...
+M: Ich habs gemerkt. Ich wollte debuggen und hab keine Antwort von Matchmaker bekommen.
+D: Tut wieder!
