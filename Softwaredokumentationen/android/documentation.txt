@@ -1,3 +1,10 @@
+Systemvoraussetzungen
+
+Android 2.2 (API 8)
+Touchbildschirm
+Internetverbindung
+
+
 Entwicklungsumgebung
 
 Zum Entwicklen wurde ein Ubuntu 12.04 mit Eclipse IDE for Java Developers Indigo SR2, sowie das  Android Development Toolkit Version 18 verwendet.
