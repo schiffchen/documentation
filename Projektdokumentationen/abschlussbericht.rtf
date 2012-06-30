@@ -1,0 +1,70 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \uc0\u8226 }{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\margb1800\margt1800
+\deftab708
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa540\pardirnatural
+
+\f0\b\fs56 \cf0 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone \outl0\strokewidth0 \strokec0 Abschlussbericht\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa300\pardirnatural
+
+\fs36 \expnd0\expndtw0\kerning0
+Erreichte Ziele\
+\pard\tx453\tx633\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\li633\fi-634\sl360\slmult1\pardirnatural
+\ls1\ilvl0
+\b0\fs24 \expnd0\expndtw0\kerning0
+{\listtext	\'95	}Matchmaker-Server, der Spieler einander zuweist und statistische Daten erfasst und speichert\
+{\listtext	\'95	}Android-Client mit allen zum Spielen wichtigen Funktionen\
+{\listtext	\'95	}Windows Phone-Client mit allen zum Spielen wichtigen Funktionen\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl360\slmult1\pardirnatural
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa300\pardirnatural
+
+\b\fs36 \expnd0\expndtw0\kerning0
+Beschreibung\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl360\slmult1\sa320\pardirnatural
+
+\b0\fs24 \expnd0\expndtw0\kerning0
+Der Matchmaker-Server ist so umgesetzt wie es anfangs geplant war. Clients k\'f6nnen sich bei ihm in eine Liste eintragen lassen und werden, sobald ein weiterer Spieler eingetragen ist, einander zugewiesen. Die Kommunikation erfolgt komplett dem im Voraus definierten Standard. Nach Abschluss eines Spieles k\'f6nnen die Clients dem Matchmaker Informationen zum Gewinner \'dcbermitteln, welcher diese dann speichert.\
+Die Clients f\'fcr Android und Windows Phone enthalten ebenfalls alle zum Spielen wichtigen Funktionen. Der Android-Client unterst\'fctzt auch das \'dcbermitteln der Statistiken an den Matchmaker. Auf diese Funktionalit\'e4t musste beim Windows Phone-Client verzichtet werden, da einige Probleme zu viel Zeit beansprucht haben.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa300\pardirnatural
+
+\b\fs36 \expnd0\expndtw0\kerning0
+Probleme w\'e4hrend des Projektes\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa300\pardirnatural
+
+\fs24 \expnd0\expndtw0\kerning0
+Verkomplizierung der Entwicklung aufgrund der schuleigenen Firewall\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl360\slmult1\sa320\pardirnatural
+
+\b0 \expnd0\expndtw0\kerning0
+Das Entwickeln wurde durch die Tatsache, dass die Schule eine Firewall mit sehr strikten Portbeschr\'e4nkungen hat, kompliziert. Das Team nutzt zur Entwicklung das Versionskontrollsystem Git, die Repositorys dazu wurden auf Github gehostet. Die Git-Kommunikation l\'e4uft \'fcber SSH, also \'fcber Port 22. Dieser Port ist innerhalb des Schulnetzwerkes blockiert, weshalb innerhalb des Schulnetzwerkes nicht entwickelt werden konnte.\
+Die Kommunikation zwischen XMPP-Client und -Server l\'e4uft \'fcber den Port 5222, der ebenfalls blockiert wurde. Deshalb war es auch nicht m\'f6glich, die Entwicklungen innerhalb des Schulnetzes zu testen.\
+Einzige L\'f6sungsm\'f6glichkeit f\'fcr dieses Problem war das Nutzen einer eigenen Internetverbindung \'fcber das Mobilfunknetz oder das Umgehen der Schulfirewall durch einen SOCKS-Proxy \'fcber Port 80/443.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa300\pardirnatural
+
+\b \expnd0\expndtw0\kerning0
+Mangelhafte Unterst\'fctzung einiger Standards auf Mobilplattformen\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl360\slmult1\sa320\pardirnatural
+
+\b0 \expnd0\expndtw0\kerning0
+Die Entwicklung der Clients f\'fcr Windows Phone und Android wurde stellenweise problemreicher als erwartet.\
+F\'fcr beide Plattformen waren sehr wenige XMPP-Bibliotheken verf\'fcgbar und noch weniger davon funktionierten. Auf der Windows Phone-Plattform wurden gerade einmal zwei Bibliotheken entwickelt, eine davon ist kommerziell und der Preis bewegte sich im vierstelligen Bereich, was den Rahmen dieses Projektes gesprengt h\'e4tte. Die zweite Bibliothek war anfangs sehr fehlerbehaftet, die Probleme wurden dann aber gemeinsam mit den Entwicklern dieser Bibliothek gel\'f6st.\
+Auf der Android-Plattform fehlt eine Unterst\'fctzung f\'fcr SSL-Verschl\'fcsselte Verbindungen, weshalb der Client noch nicht in der Lage ist, sich mit Servern zu verbinden, die eine Verschl\'fcsselung erfordern.\
+Details zu solchen Problemen sind in den Dokumentationen des jeweiligen Clients zu finden.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sa300\pardirnatural
+
+\b \expnd0\expndtw0\kerning0
+Zeitmangel\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab708\sl360\slmult1\sa320\pardirnatural
+
+\b0 \expnd0\expndtw0\kerning0
+Der am Anfang des Projektes aufgestellte Zeitplan konnte nicht hundertprozentig eingehalten werden. Es kam immer wieder zu Unterbrechungen durch Klassenzimmer-Umz\'fcge, Klassenarbeiten oder eingeschobene Unterrichtsstunden in einigen F\'e4chern. Dadurch stand effektiv weniger Zeit zur Verf\'fcgung wie anfangs angenommen, weshalb es am Schluss des Projektes eng wurde.\
+Auch die Tatsache, dass am Anfang des Projektes mehr Zeit als geplant f\'fcr das Suchen funktionierender Bibliotheken ben\'f6tigt wurde, wirkte sich am Schluss des Projektes stressf\'f6rdernd aus.\cf0 \kerning1\expnd0\expndtw0 \up0 \nosupersub \ulnone \outl0\strokewidth0 \
+\pard\tqr\tx9632\pardeftab708\pardirnatural
+
+\fs20 \cf2 \expnd0\expndtw0\kerning0
+\up0 \nosupersub \ulnone \outl0\strokewidth0 \strokec2 Abschlussbericht}
