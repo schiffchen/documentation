@@ -18,6 +18,13 @@ Milestones
 22.06.	Erste komplett durchspielbare Spielversion
 
 
+Probleme
+
+Die für Java geschriebenen XMPP-Bibliotheken funktionieren unter Android nicht, da Android nur eine unvollständige JVM-Implementierung ist und einige von den Libraries benötigten Klassen nicht existieren. Da es keine direkt für Android geschriebenen XMPP-Libraries gibt, musste auf eine für Java geschriebene Bibliothek zurückgegriffen werden, aus welcher die Verschlüsselung ausgebaut wurde, um sie für Android kompatibel zu machen. Aus diesem Grund kann die Applikation nicht zu Servern verbinden, welche eine verschlüsselte Verbindung voraussetzen.
+
+Die Umsetzung der Grafik war ursprünglich in SVG geplant. Android bietet jedoch nativ keine Unterstützung für SVG-Grafiken und die wenigen existierenden SVG-Bibliotheken unterstützen nur eine unvollständige Implementierung von SVG-Mobile. Da die Anforderungen userer Grafiken weit über SVG-Mobile liegen, wurde entschieden, PNG-Grafiken in entsprechender Auflösung mit der Applikation mitzuliefern.
+
+
 Spiel
 
 Nach dem Herstellen der Verbindung mit dem Gegner wird ein leeres Spielfeld angezeigt. Über dem Spielfeld wird die Vorschau des als nächsten zu setzenden Schiffs angezeigt. Durch Klicken auf die Vorschau wird zum nächsten Schiff gewechselt.
@@ -29,9 +36,6 @@ Wenn alle Schiffe gesetzt wurden, erscheint über dem Spielfeld ein Button "Read
 Zu Spielstart wird, wenn man selbst am Zug ist, das gegnerische, und ansonsten das eigene Spielfeld angezeigt. Ist man am Zug, so kann man durch Berühren eines Feldes auf dieses schießen. Das Feld wird bei einem Treffer rot und bei einem Fehlschlag weiß markiert. Nach dem Schuss ist der Gegner an der Reihe. Es wird nun das Spielfeld des Spielers angezeigt und sobald der Gegner auf ein Feld geschossen hat ebenfalls das getroffene Feld rot oder weiß markiert. Wird ein Schiff des Gegners versenkt, so wird es auf dem Spielfeld angezeigt.
 
 Sind alle Schiffe eines Spielers versenkt, so endet das Spiel und der Spieler erhält eine Nachricht, dass er gewonnen bzw. verloren hat.
-
-
-Probleme
 
 
 Ressourcen
