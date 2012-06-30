@@ -38,10 +38,11 @@ Zu Spielstart wird, wenn man selbst am Zug ist, das gegnerische, und ansonsten d
 Sind alle Schiffe eines Spielers versenkt, so endet das Spiel und der Spieler erhält eine Nachricht, dass er gewonnen bzw. verloren hat.
 
 
-Ressourcen
-
-
 Fremdmaterial
 
-asmack - XMPP library for android - https://code.google.com/p/asmack/ - Apache License 2.0
+Sounds
+splash by petenice - http://www.freesound.org/people/petenice/sounds/9508/ - CC sampling+
+explosion by Omar Alvarado - http://www.freesound.org/people/Omar%20Alvarado/sounds/93741/ - CC Attribution 3.0
 
+Libraries
+asmack - XMPP library for android - https://code.google.com/p/asmack/ - Apache License 2.0
