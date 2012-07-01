@@ -8,11 +8,11 @@ D: XMPP ist ein dezentrales Netzwerk zur Datenübertragung. So bräuchten wir ke
 M: Und wie sollen wir Spieldaten über XMPP übertragen?
 D: Die im XMPP verschickten Daten sind pures XML. Wenn wir da ein paar Elemente mehr einbauen,
    können wir da alles übertragen, was wir wollen.
-F: Interessant!
+F: Yeah cool
 D: Dann können wir uns überwiegend auf die Entwicklung von Clients konzentrieren
-F: D.h. das Ding kann auf jedem XMPP-Server laufen, und die Clients kommunizieren dann
+F: D.h. das Ding kann auf jedem XMPP-Server laufen, und die Spieler spielen dann
    per "XMPP-Direktchat"?
-D: Genau, die Spieler spielen schön über ein GUI
+D: die Spieler spielen schön über ein GUI
    und der Client wandelt dann die Aktionen des Spielers in XML um und verschickt es über XMPP
 F: Und wo is der Server, der die Logik berechnet?
 D: Brauchen wir überhaupt nen Server? Das können auch die Clients erledigen.
@@ -26,7 +26,7 @@ F: Im Prinzip cool. Aber d.h. jeder Spieler bräuchte nen XMPP-Konto und wir hab
    Matchmaking. Das is zwar cool als nerdiges Linuxgame, aber wie kriegen wir das als
    einfache "App" unter die Leute? :D
 D: Android-Client entwickeln, Windows Phone Client entwickeln etc?!
-F: Aber ich wäre dann trotzdem noch für einen Matchmaking-Server. Wenn wir so dezentral
+M: Aber ich wäre dann trotzdem noch für einen Matchmaking-Server. Wenn wir so dezentral
    kommunizieren, weiß ja niemand, wer grade auch spielen will. Wenn die Clients aber noch
    nem Matchmaking-Server Meldung machen würden, könnten wir Spieler zusammenbringen
 D: Mhh, ja. Gut, dann müssten wir halt noch einen Matchmaker-Server bauen, der dann nur
