@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="51cm" height="47cm" viewBox="-321 -201 1002 932" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="110" y="-200" width="150" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="110" y="-200" width="150" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="185" y="-164.1">
+      <tspan x="185" y="-164.1">1</tspan>
+      <tspan x="185" y="-148.1">Battleship.me</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-140" y="-50" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-140" y="-50" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-70" y="-14.1">
+      <tspan x="-70" y="-14.1">1.2</tspan>
+      <tspan x="-70" y="1.9">Resourcen</tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-70" y="-10">
+    <tspan x="-70" y="-10"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="-310" y="-50" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-310" y="-50" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-240" y="-14.1">
+      <tspan x="-240" y="-14.1">1.1</tspan>
+      <tspan x="-240" y="1.9">Standards</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="30" y="-50" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="30" y="-50" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="100" y="-14.1">
+      <tspan x="100" y="-14.1">1.3</tspan>
+      <tspan x="100" y="1.9">Android-Client</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="200" y="-50" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="-50" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="-22.1">
+      <tspan x="270" y="-22.1">1.4</tspan>
+      <tspan x="270" y="-6.1">Windows-Phone-</tspan>
+      <tspan x="270" y="9.9">Client</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="370" y="-50" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="370" y="-50" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="-14.1">
+      <tspan x="440" y="-14.1">1.5</tspan>
+      <tspan x="440" y="1.9">Matchmaker</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-310" y="50" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-310" y="50" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-240" y="85.9">
+      <tspan x="-240" y="85.9">1.1.1</tspan>
+      <tspan x="-240" y="101.9">Spielregeln</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-310" y="150" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-310" y="150" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-240" y="177.9">
+      <tspan x="-240" y="177.9">1.1.2</tspan>
+      <tspan x="-240" y="193.9">Matchmaker-</tspan>
+      <tspan x="-240" y="209.9">protokoll</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-310" y="250" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-310" y="250" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-240" y="277.9">
+      <tspan x="-240" y="277.9">1.1.3</tspan>
+      <tspan x="-240" y="293.9">Client.</tspan>
+      <tspan x="-240" y="309.9">protokoll</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-140" y="50" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-140" y="50" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-70" y="85.9">
+      <tspan x="-70" y="85.9">1.2.1</tspan>
+      <tspan x="-70" y="101.9">Grafiken</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-140" y="150" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-140" y="150" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-70" y="185.9">
+      <tspan x="-70" y="185.9">1.2.2</tspan>
+      <tspan x="-70" y="201.9">Sounds</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="30" y="50" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="30" y="50" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="100" y="77.9">
+      <tspan x="100" y="77.9">1.3.1</tspan>
+      <tspan x="100" y="93.9">XMPP</tspan>
+      <tspan x="100" y="109.9">Verbindung</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="30" y="150" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="30" y="150" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="100" y="185.9">
+      <tspan x="100" y="185.9">1.3.2</tspan>
+      <tspan x="100" y="201.9">Login-Bildschirm</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="30" y="250" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="30" y="250" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="100" y="277.9">
+      <tspan x="100" y="277.9">1.3.3</tspan>
+      <tspan x="100" y="293.9">Kommunikation</tspan>
+      <tspan x="100" y="309.9">mit Matchmaker</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="30" y="350" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="30" y="350" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="100" y="377.9">
+      <tspan x="100" y="377.9">1.3.4</tspan>
+      <tspan x="100" y="393.9">Kommunikation</tspan>
+      <tspan x="100" y="409.9">mit Gegner</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="30" y="450" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="30" y="450" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="100" y="477.9">
+      <tspan x="100" y="477.9">1.3.5</tspan>
+      <tspan x="100" y="493.9">Zeichnen des</tspan>
+      <tspan x="100" y="509.9">Spielfelds</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="540" y="-50" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="-50" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="610" y="-14.1">
+      <tspan x="610" y="-14.1">1.6</tspan>
+      <tspan x="610" y="1.9">Webfrontend</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="30" y="550" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="30" y="550" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="100" y="577.9">
+      <tspan x="100" y="577.9">1.3.6</tspan>
+      <tspan x="100" y="593.9">Setzen der</tspan>
+      <tspan x="100" y="609.9">Schiffe</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="30" y="650" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="30" y="650" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="100" y="685.9">
+      <tspan x="100" y="685.9">1.3.7</tspan>
+      <tspan x="100" y="701.9">Spielablauf</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="200" y="50" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="50" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="77.9">
+      <tspan x="270" y="77.9">1.4.1</tspan>
+      <tspan x="270" y="93.9">XMPP</tspan>
+      <tspan x="270" y="109.9">Verbindung</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="200" y="150" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="150" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="185.9">
+      <tspan x="270" y="185.9">1.4.2</tspan>
+      <tspan x="270" y="201.9">Login-Bildschirm</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="200" y="250" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="250" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="277.9">
+      <tspan x="270" y="277.9">1.4.3</tspan>
+      <tspan x="270" y="293.9">Kommunikation</tspan>
+      <tspan x="270" y="309.9">mit Matchmaker</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="200" y="350" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="350" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="377.9">
+      <tspan x="270" y="377.9">1.4.4</tspan>
+      <tspan x="270" y="393.9">Kommunikation</tspan>
+      <tspan x="270" y="409.9">mit Gegner</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="200" y="450" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="450" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="477.9">
+      <tspan x="270" y="477.9">1.4.5</tspan>
+      <tspan x="270" y="493.9">Zeichnen des</tspan>
+      <tspan x="270" y="509.9">Spielfelds</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="200" y="550" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="550" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="577.9">
+      <tspan x="270" y="577.9">1.4.6</tspan>
+      <tspan x="270" y="593.9">Setzen der</tspan>
+      <tspan x="270" y="609.9">Schiffe</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="200" y="650" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="650" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="685.9">
+      <tspan x="270" y="685.9">1.4.7</tspan>
+      <tspan x="270" y="701.9">Spielablauf</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="370" y="50" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="370" y="50" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="77.9">
+      <tspan x="440" y="77.9">1.5.1</tspan>
+      <tspan x="440" y="93.9">XMPP</tspan>
+      <tspan x="440" y="109.9">Verbindung</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="370" y="250" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="370" y="250" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="277.9">
+      <tspan x="440" y="277.9">1.5.3</tspan>
+      <tspan x="440" y="293.9">Spieler</tspan>
+      <tspan x="440" y="309.9">einreihen</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="370" y="350" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="370" y="350" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="377.9">
+      <tspan x="440" y="377.9">1.5.4</tspan>
+      <tspan x="440" y="393.9">Statistiken</tspan>
+      <tspan x="440" y="409.9">erfassen</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="540" y="50" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="50" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="610" y="77.9">
+      <tspan x="610" y="77.9">1.6.1</tspan>
+      <tspan x="610" y="93.9">Datenbank-</tspan>
+      <tspan x="610" y="109.9">verbindung</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="370" y="150" width="140" height="78"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="370" y="150" width="140" height="78"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="176.9">
+      <tspan x="440" y="176.9">1.5.2</tspan>
+      <tspan x="440" y="192.9">Datenbank</tspan>
+      <tspan x="440" y="208.9">einrichten</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="540" y="150" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="150" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="610" y="177.9">
+      <tspan x="610" y="177.9">1.6.2</tspan>
+      <tspan x="610" y="193.9">Design</tspan>
+      <tspan x="610" y="209.9">entwerfen</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="540" y="250" width="140" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="250" width="140" height="80"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="610" y="277.9">
+      <tspan x="610" y="277.9">1.6.3</tspan>
+      <tspan x="610" y="293.9">Design</tspan>
+      <tspan x="610" y="309.9">umsetzen</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="185" y1="-120" x2="185" y2="-80"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-240" y1="-80" x2="610" y2="-80"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-320" y1="40" x2="-320" y2="290"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-240" y1="-80" x2="-240" y2="-50"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-320" y1="90" x2="-310" y2="90"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-320" y1="190" x2="-310" y2="190"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-320" y1="290" x2="-310" y2="290"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-240" y1="30" x2="-240" y2="40"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-320" y1="40" x2="-240" y2="40"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-70" y1="-80" x2="-70" y2="-50"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-70" y1="30" x2="-70" y2="40"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-150" y1="40" x2="-70" y2="40"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-150" y1="40" x2="-150" y2="190"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-150" y1="90" x2="-140" y2="90"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-150" y1="190" x2="-140" y2="190"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="100" y1="-80" x2="100" y2="-50"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="100" y1="30" x2="100" y2="40"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="20" y1="40" x2="100" y2="40"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="20" y1="40" x2="20" y2="690"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="20" y1="90" x2="30" y2="90"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="20" y1="190" x2="30" y2="190"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="20" y1="290" x2="30" y2="290"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="20" y1="390" x2="30" y2="390"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="20" y1="490" x2="30" y2="490"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="20" y1="690" x2="30" y2="690"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="20" y1="590" x2="30" y2="590"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="190" y1="40" x2="190" y2="690"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="190" y1="90" x2="200" y2="90"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="190" y1="190" x2="200" y2="190"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="190" y1="290" x2="200" y2="290"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="190" y1="390" x2="200" y2="390"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="190" y1="490" x2="200" y2="490"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="190" y1="590" x2="200" y2="590"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="190" y1="690" x2="200" y2="690"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="270" y1="30" x2="270" y2="40"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="190" y1="40" x2="270" y2="40"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="270" y1="-80" x2="270" y2="-50"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="440" y1="-80" x2="440" y2="-50"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="440" y1="30" x2="440" y2="40"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="360" y1="40" x2="440" y2="40"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="360" y1="40" x2="360" y2="390"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="360" y1="290" x2="370" y2="290"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="360" y1="390" x2="370" y2="390"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="360" y1="190" x2="370" y2="189"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="360" y1="90" x2="370" y2="90"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="530" y1="40" x2="530" y2="290"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="530" y1="290" x2="540" y2="290"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="530" y1="190" x2="540" y2="190"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="540" y1="90" x2="530" y2="90"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="610" y1="30" x2="610" y2="40"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="530" y1="40" x2="610" y2="40"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="610" y1="-80" x2="610" y2="-50"/>
+</svg>
