@@ -1,0 +1,46 @@
+Tag 1	04.05.2012
+Besprechungen und Projektplanung
+Erstellung von Repositories zur Quellcodeverwaltung
+Suchen und bearbeiten von Sounds
+
+Tag 2	10.05.2012
+Implementieren der Grundklassen für ein Spiel: Schiff, Spielfeld, etc.
+Suchen nach einer XMPP-Bibliothek für Android
+
+Tag 3	11.05.2012
+Besprechungen
+Niederschreiben der Spielregeln
+Suchen nach einer XMPP-Bibliothek für Android
+
+Tag 4	18.05.2012
+Suchen nach einer XMPP-Bibliothek für Android
+Implementierung der Kommunikation mit dem Matchmaker
+
+Tag 5	24.05.2012
+Besprechungen
+Implementierung der Kommunikation mit dem Matchmaker
+
+Tag 6	25.05.2012
+Implementierung der Kommunikation mit dem Matchmaker
+Implementierung von Utilities für das erzeugen von Views
+Schreiben des Login-Bildschirms
+
+Tag 7	15.06.2012
+Zeichnen des Spielfelds
+Setzen von Schiffen
+
+Tag 8	21.06.2012
+Aufbauen der Verbindung zum Gegenspieler
+Würfeln, wer beginnt
+Anpingen des Gegners
+Verarbeiten von Schüssen
+
+Tag 9	22.06.2012
+Prüfen, ob das Spiel verloren ist
+Einbauen der Sounds
+Projektdokumentation
+
+Tag 10	29.06.2012
+Bugfixes im Client
+Geschäftsprozess
+Nachbesprechungen
