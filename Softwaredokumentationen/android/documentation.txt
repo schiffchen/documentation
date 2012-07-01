@@ -13,7 +13,7 @@ Zum Entwicklen wurde ein Ubuntu 12.04 mit Eclipse IDE for Java Developers Indigo
 Milestones
 
 18.05.	Funktionierende XMPP-Bibilothek
-07.06.	Der Login-Bildschirm, sowie die zuweisung zu einem zufälligen Gegner funktionieren
+15.06.	Der Login-Bildschirm, sowie die zuweisung zu einem zufälligen Gegner funktionieren
 21.06.	Spielfeld wird korrekt gerendert, Schiffe können platziert werden
 22.06.	Erste komplett durchspielbare Spielversion
 
